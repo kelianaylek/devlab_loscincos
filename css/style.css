@@ -1,0 +1,48 @@
+/* Pour toutes les pages, sur tout le site */
+*{
+    margin: 0;
+    padding: 0;   
+}
+/* Dans le header */
+header{
+    background-color: rgba(30, 139, 195, 1);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ------------------------------------------------ */
+/* Dans le main, le contenu du site */
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.backgroundMain{
+    background-color:rgba(137, 196, 244, 1);
+    height: 90vh;
+}
+
+
+/* ------------------------------------------------ */
+/* Dans le footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(51, 110, 123, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color:#fff;
+}

@@ -1,37 +1,72 @@
 /* Pour toutes les pages, sur tout le site */
-*{
+
+* {
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
+
+
 /* Dans le header */
-header{
+
+header {
     background-color: rgba(30, 139, 195, 1);
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: space-between;
 }
-header nav a{
+
+header nav a {
     padding: 10px;
     text-decoration: none;
     color: #fff;
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* Dans le main, le contenu du site */
-.container{
+
+.container {
     margin: 0 auto;
     width: 90%;
 }
-.backgroundMain{
-    background-color:rgba(137, 196, 244, 1);
+
+.backgroundMain {
+    background-color: rgba(137, 196, 244, 1);
     height: 90vh;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+    font-size: 1.8em;
+}
+
+h2 {
+    color: white;
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+ol {
+    font-size: 1.5rem;
+    padding-left: 60px;
+}
+
+li {
+    line-height: 1.5;
 }
 
 
 /* ------------------------------------------------ */
+
+
 /* Dans le footer */
-footer{
+
+footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -42,7 +77,8 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-footer a{
+
+footer a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
